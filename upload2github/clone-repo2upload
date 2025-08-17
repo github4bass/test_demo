@@ -1,0 +1,9 @@
+#If you want Repo B to start fresh, you can just clone Repo B into a new folder, copy your files there, and push:
+
+git clone https://github.com/opealesh/my-second-repo.git
+cd my-second-repo
+cp -r ../my-first-repo/* .
+git add .
+git commit -m "Copied project from my-first-repo"
+git push origin main
+
